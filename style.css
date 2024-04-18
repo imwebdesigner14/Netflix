@@ -1,0 +1,293 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url(assets/images/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1400px,100vw);
+    height: 70vh;
+    position: relative;
+    
+}
+
+.main > .box{
+    height: 70vh;
+    width:100%;
+    background-color: black ;
+    opacity: 0.54;
+    position: absolute;
+    top: 0;
+   
+}
+
+nav{
+   
+    max-width: 140vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    height: 82px;
+   
+
+   
+}
+nav img{
+    color: red;
+    width: 120px;
+    position: relative;
+    z-index: 10;
+
+}
+   
+nav button {
+    position: relative;
+    z-index: 10;
+    height: 36px;
+    width: 110px;
+    border-radius: 7px;
+    background-color: rgba(17,17,17,0.8);
+    color: white;
+    cursor: pointer;
+    border: 0.2px solid grey;
+
+}
+
+nav button:nth-child(2){
+    color: white;
+    background-color: rgba(255, 0, 0, 0.598);
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.819);
+    font-size: 15px;
+    width: 77px;
+    cursor: pointer;
+}
+
+.hero{
+    height: 100%;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    color: white;
+    gap: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+
+.hero span:nth-child(1){
+    font-size: 48px;
+    font-weight: 800;
+}
+
+
+.hero .emailbox{
+    height: 52px;
+    width: 600px;
+
+
+}
+
+.hero input{
+  
+   padding: 16px;
+    width: 50%;
+    background-color: rgba(17,17,17,0.8);
+    border: 0.2px solid white ;
+    border-radius: 4px;
+    color: white;
+    justify-content: space-around;
+
+   
+    
+}
+
+.hero button{
+    border-radius: 8px;
+   
+    height: 90%;
+    width: 183px;
+    font-size: 22px;
+    background-color: rgba(255, 0, 0, 0.568);
+    font-family: sans-serif;
+    color: white;
+    font-weight: 600;
+    border: 0.2px solid black;
+    cursor: pointer;
+}
+
+.seprations{
+    height: 7px;
+    width: 100%;
+    background-color: rgba(169, 169, 169, 0.303);
+}
+
+
+.first{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.secimg{
+    position: relative;
+    height: 600px;
+}
+
+.secimg img{
+    width: 40vw;
+    position: relative;
+    z-index: 10;
+    ;
+
+}
+
+.first .firstvideo{
+   
+    position: absolute;
+    top: 106px;
+    right: 118px;
+    height: 45%;
+       
+   }
+
+.secimg video{
+   
+ position: absolute;
+ top: 38px;
+ right: 118px;
+ height: 36%;
+    
+}
+
+
+.sectext{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: sans-serif;
+    font-weight:600;
+    font-size: 25px;
+
+}
+.sectext span{
+    font-size: 70px;
+
+}
+
+.lastsection h2{
+    padding: 10px;
+    font-size: 48px;
+    color: white;
+   
+    text-align: center;
+
+}
+.lastsection .questions{
+
+    padding: 20px;
+    max-width: 70vw;
+    color: white;
+    background-color: rgb(82, 80, 80);
+    font-size: 30px;
+    justify-content: space-between;
+    margin: 34px auto;
+    align-items: center;
+    transition: all 0.5s;
+    
+    cursor: pointer;
+}
+
+.lastsection .questions:hover{
+   background-color: red;
+}
+
+.lastsection .qbh{
+    height: 100%;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    color: white;
+    gap: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+
+
+
+.lastsection .emailbox{
+    height: 52px;
+    width: 600px;
+    margin: 20px auto;
+
+
+}
+
+.lastsection input{
+  
+   padding: 16px;
+    width: 50%;
+    background-color: rgba(17,17,17,0.8);
+    border: 0.2px solid white ;
+    border-radius: 4px;
+    color: white;
+    justify-content: space-around;
+
+   
+    
+}
+
+.lastsection button{
+    border-radius: 8px;
+    height: 90%;
+    width: 183px;
+    font-size: 22px;
+    background-color: rgba(255, 0, 0, 0.568);
+    font-family: sans-serif;
+    color: white;
+    font-weight: 600;
+    border: 0.2px solid black;
+    cursor: pointer;
+  
+}
+
+
+
+footer{
+    height: 300px;
+    font-size: 20px;
+    padding: 30px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+footer ul li{
+    margin: 20px;
+    
+}
+
+footer ul li a{
+    color: white;
+}
